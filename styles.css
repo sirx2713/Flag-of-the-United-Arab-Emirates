@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+    background-color: #2A629A;
+    color: white;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+}
+#container > #flex-box{
+    height: 600px;
+    width: 200px;
+    background-color: #EF3340;
+}
+#container > #css-grids{
+    display: grid;
+    grid-template-columns: 1000px;
+    grid-template-rows: 200px 200px 200px;
+}
+#container > #css-grids > #green-box{
+    background-color: #009739;
+}
+#container > #css-grids > #white-box{
+    background-color: #FFFFFF;
+}
+#container > #css-grids > #black-box{
+    background-color: #000000;
+}
